@@ -2,14 +2,14 @@
  * This component invokes the procedure directly on the server,
  * without going through the HTTP endpoint.
  */
-import { Button } from '@shared/ui/components/button';
+import { Button } from '../../shared-ui/components/button';
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
+} from '../../shared-ui/components/card';
 import { LockIcon, RefreshCwIcon } from 'lucide-react';
 import { api } from '~/trpc/server-invoker';
 import {

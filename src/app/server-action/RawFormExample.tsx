@@ -1,7 +1,7 @@
 'use client';
 
-import { Button } from '@shared/ui/components/button';
-import { Input } from '@shared/ui/components/input';
+import { Button } from '../../shared-ui/components/button';
+import { Input } from '../../shared-ui/components/input';
 import { testAction } from './_actions';
 
 export function RawFormExample() {

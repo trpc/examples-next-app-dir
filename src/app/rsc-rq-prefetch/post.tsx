@@ -4,16 +4,16 @@ import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from '@shared/ui/components/alert';
-import { Button } from '@shared/ui/components/button';
+} from '../../shared-ui/components/alert';
+import { Button } from '../../shared-ui/components/button';
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
-import { Spinner } from '@shared/ui/components/spinner';
+} from '../../shared-ui/components/card';
+import { Spinner } from '../../shared-ui/components/spinner';
 import {
   useMutation,
   useQueryClient,

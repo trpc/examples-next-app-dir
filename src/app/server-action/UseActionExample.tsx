@@ -1,9 +1,9 @@
 'use client';
 
-import { Button } from '@shared/ui/components/button';
-import { Field, FieldLabel } from '@shared/ui/components/field';
-import { Input } from '@shared/ui/components/input';
-import { Spinner } from '@shared/ui/components/spinner';
+import { Button } from '../../shared-ui/components/button';
+import { Field, FieldLabel } from '../../shared-ui/components/field';
+import { Input } from '../../shared-ui/components/input';
+import { Spinner } from '../../shared-ui/components/spinner';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { useAction } from 'trpc-api';

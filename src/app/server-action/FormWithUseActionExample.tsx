@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@shared/ui/components/button';
-import { Input } from '@shared/ui/components/input';
-import { Spinner } from '@shared/ui/components/spinner';
+import { Button } from '../../shared-ui/components/button';
+import { Input } from '../../shared-ui/components/input';
+import { Spinner } from '../../shared-ui/components/spinner';
 import { useAction } from 'trpc-api';
 import { JsonBlock } from '../_components/json-block';
 import { testAction } from './_actions';
