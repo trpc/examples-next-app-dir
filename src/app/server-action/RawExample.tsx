@@ -1,8 +1,8 @@
 'use client';
 
-import { Button } from '@shared/ui/components/button';
-import { Field, FieldLabel } from '@shared/ui/components/field';
-import { Input } from '@shared/ui/components/input';
+import { Button } from '../../shared-ui/components/button';
+import { Field, FieldLabel } from '../../shared-ui/components/field';
+import { Input } from '../../shared-ui/components/input';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { testAction } from './_actions';

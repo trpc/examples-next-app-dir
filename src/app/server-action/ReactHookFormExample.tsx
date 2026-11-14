@@ -1,10 +1,10 @@
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Button } from '@shared/ui/components/button';
-import { Field, FieldError, FieldLabel } from '@shared/ui/components/field';
-import { Input } from '@shared/ui/components/input';
-import { Spinner } from '@shared/ui/components/spinner';
+import { Button } from '../../shared-ui/components/button';
+import { Field, FieldError, FieldLabel } from '../../shared-ui/components/field';
+import { Input } from '../../shared-ui/components/input';
+import { Spinner } from '../../shared-ui/components/spinner';
 import { useRef } from 'react';
 import type { FieldValues, UseFormProps } from 'react-hook-form';
 import { FormProvider, useForm } from 'react-hook-form';

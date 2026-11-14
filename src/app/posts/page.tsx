@@ -4,7 +4,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
+} from '../../shared-ui/components/card';
 import { ChevronRightIcon } from 'lucide-react';
 import {
   ItemActions,

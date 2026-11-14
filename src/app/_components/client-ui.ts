@@ -2,7 +2,7 @@
 
 // These components render through Base UI's `useRender` hook, so Server
 // Components use them through this client boundary.
-export { Badge } from '@shared/ui/components/badge';
+export { Badge } from '../../shared-ui/components/badge';
 export {
   Breadcrumb,
   BreadcrumbItem,
@@ -10,7 +10,7 @@ export {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@shared/ui/components/breadcrumb';
+} from '../../shared-ui/components/breadcrumb';
 export {
   Item,
   ItemActions,
@@ -19,4 +19,4 @@ export {
   ItemGroup,
   ItemMedia,
   ItemTitle,
-} from '@shared/ui/components/item';
+} from '../../shared-ui/components/item';

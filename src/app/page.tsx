@@ -1,11 +1,11 @@
-import { buttonVariants } from '@shared/ui/components/button';
+import { buttonVariants } from '../shared-ui/components/button';
 import {
   Card,
   CardAction,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
+} from '../shared-ui/components/card';
 import {
   ChevronRightIcon,
   DatabaseZapIcon,
