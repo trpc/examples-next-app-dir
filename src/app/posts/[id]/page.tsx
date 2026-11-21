@@ -1,5 +1,5 @@
-import { buttonVariants } from '@shared/ui/components/button';
-import { Card, CardContent, CardFooter } from '@shared/ui/components/card';
+import { buttonVariants } from '../../../shared-ui/components/button';
+import { Card, CardContent, CardFooter } from '../../../shared-ui/components/card';
 import { ArrowLeftIcon } from 'lucide-react';
 import Link from 'next/link';
 import { PageHeader } from '../../_components/page-header';

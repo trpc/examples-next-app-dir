@@ -1,15 +1,15 @@
 'use client';
 
-import { Button } from '@shared/ui/components/button';
+import { Button } from '../../shared-ui/components/button';
 import {
   Field,
   FieldError,
   FieldGroup,
   FieldLabel,
-} from '@shared/ui/components/field';
-import { Input } from '@shared/ui/components/input';
-import { Spinner } from '@shared/ui/components/spinner';
-import { Textarea } from '@shared/ui/components/textarea';
+} from '../../shared-ui/components/field';
+import { Input } from '../../shared-ui/components/input';
+import { Spinner } from '../../shared-ui/components/spinner';
+import { Textarea } from '../../shared-ui/components/textarea';
 import toast from 'react-hot-toast';
 import { addPost } from './_data';
 import { addPostSchema } from './_data.schema';

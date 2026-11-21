@@ -1,4 +1,4 @@
-import { buttonVariants } from '@shared/ui/components/button';
+import { buttonVariants } from '../shared-ui/components/button';
 import { CodeXmlIcon } from 'lucide-react';
 import type { Metadata } from 'next';
 import Link from 'next/link';

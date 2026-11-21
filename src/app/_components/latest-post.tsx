@@ -7,10 +7,10 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
-import { Field, FieldGroup, FieldLabel } from '@shared/ui/components/field';
-import { Input } from '@shared/ui/components/input';
-import { Textarea } from '@shared/ui/components/textarea';
+} from '../../shared-ui/components/card';
+import { Field, FieldGroup, FieldLabel } from '../../shared-ui/components/field';
+import { Input } from '../../shared-ui/components/input';
+import { Textarea } from '../../shared-ui/components/textarea';
 import { Badge } from './client-ui';
 
 export function LatestPostCard(props: {

@@ -3,8 +3,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@shared/ui/components/accordion';
-import { Card, CardContent } from '@shared/ui/components/card';
+} from '../../shared-ui/components/accordion';
+import { Card, CardContent } from '../../shared-ui/components/card';
 import type { ReactNode } from 'react';
 import { PageHeader } from '../_components/page-header';
 import { FormWithUseActionExample } from './FormWithUseActionExample';

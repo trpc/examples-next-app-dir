@@ -1,11 +1,11 @@
-import { Button } from '@shared/ui/components/button';
+import { Button } from '../../shared-ui/components/button';
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
+} from '../../shared-ui/components/card';
 import { api } from '~/trpc/server-invoker';
 import { LatestPostCard, PostFields } from '../_components/latest-post';
 import { PageHeader } from '../_components/page-header';
