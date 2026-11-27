@@ -1,4 +1,4 @@
-import { Card, CardContent } from '@shared/ui/components/card';
+import { Card, CardContent } from '../../shared-ui/components/card';
 import {
   Empty,
   EmptyContent,
@@ -6,7 +6,7 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from '@shared/ui/components/empty';
+} from '../../shared-ui/components/empty';
 import { MonitorIcon } from 'lucide-react';
 import { Suspense } from 'react';
 import { Badge } from '../_components/client-ui';

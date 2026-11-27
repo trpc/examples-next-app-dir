@@ -5,8 +5,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@shared/ui/components/card';
-import { Skeleton } from '@shared/ui/components/skeleton';
+} from '../../shared-ui/components/card';
+import { Skeleton } from '../../shared-ui/components/skeleton';
 import { Suspense } from 'react';
 import { api } from '~/trpc/server-invoker';
 import { Badge } from '../_components/client-ui';
